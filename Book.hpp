@@ -22,6 +22,26 @@ public:
 	//mutators
 	//setTitle, setAuthor, setISBN, setDate, setCopies
 
+	void getAuthor(std::string) {
+		author = author;
+	}
+
+	void getTitle(std::string) {
+		title = title;
+	}
+
+	void getISBN(std::string) {
+		isbn = isbn;
+	}
+
+	void getDate(int) {
+		date = date;
+	}
+
+	void getCopies(int) {
+		copies = copies;
+	}
+
 
 };
 
