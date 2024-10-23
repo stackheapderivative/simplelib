@@ -1,6 +1,8 @@
 #ifndef LIBRARY_H
 #define LIBRARY_H
+
 #include <iostream>
+#include <string>
 /*
 Author: Anthony
 Date: 9/28/24

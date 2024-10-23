@@ -1,8 +1,7 @@
 #ifndef BOOK_HPP
 #define BOOK_HPP
 
-#include <iostream>
-#include <string>
+#include "LIBRARY.hpp"
 
 //Book class
 class Book {
@@ -15,32 +14,26 @@ private:
 	int copies;
 
 public:
-	//functions
 
 	//getters
-	//getTitle, getAuthor, getDate, getISBN, getCopies;
+	
+	std::string getAuthor() const;
+
+	std::string getTitle() const;
+
+	std::string getISBN() const;
+
+	int getDate() const;
+
+	int getCopies() const;
+
 	//mutators
-	//setTitle, setAuthor, setISBN, setDate, setCopies
 
-	void getAuthor(std::string) {
-		author = author;
-	}
-
-	void getTitle(std::string) {
-		title = title;
-	}
-
-	void getISBN(std::string) {
-		isbn = isbn;
-	}
-
-	void getDate(int) {
-		date = date;
-	}
-
-	void getCopies(int) {
-		copies = copies;
-	}
+	void setAuthor(const std::string&);
+	void setTitle(const std::string&);
+	void setISBN(const std::string&);
+	void setDate(const int&);
+	void setCopies(const int&);
 
 
 };
